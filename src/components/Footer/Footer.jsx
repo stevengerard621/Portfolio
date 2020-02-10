@@ -41,7 +41,7 @@ const Footer = () => {
           </a>
         </p>
 
-        {isEnabled && <GithubButtons />}
+        {false && <GithubButtons />}
       </Container>
     </footer>
   );
