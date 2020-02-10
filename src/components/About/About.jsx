@@ -39,14 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am a Full Stack Web Developer. I have a passion for problem solving and enjoy the process of seeing a project come together.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'My background as a Developer began with a 13 week fully immersive coding bootcamp through DevMountain in Lehi, UT. With that time I was able to build my first projects, both on my own and in a group environment.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'In my free time you can find me in the mountains. I love Paragliding, Trail Running, and Rock Climbing. The Ideal adventure would involve all three coming together.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -54,7 +54,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href={'https://docs.google.com/document/d/1p8rpUbjO-iEmkrjuD22oAhSnIF7RevnzpGgzYU1MPUQ/edit?usp=sharing'}
                     >
                       Resume
                     </a>
