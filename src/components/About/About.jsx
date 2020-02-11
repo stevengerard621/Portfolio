@@ -46,7 +46,7 @@ const About = () => {
                     'My background as a Developer began with a 13 week fully immersive coding bootcamp through DevMountain in Lehi, UT. With that time I was able to build my first projects, both on my own and in a group environment.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'In my free time you can find me in the mountains. I love Paragliding, Trail Running, and Rock Climbing. The Ideal adventure would involve all three to succeed.'}
+                  {paragraphThree || ' Before diving into the web development world I had spent a decade as a wildland firefighter. In that time I traveled all over the American West working with Hotshot crews, Helitack crews, and capped off my time as a Smokejumper. In my free time you can find me in the mountains. I love Paragliding, Trail Running, and Rock Climbing. The Ideal adventure would involve all three to succeed.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
