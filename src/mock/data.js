@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'steveDates.png',
+    img: 'steveDatesCol1.jpeg',
     title: 'steveDates',
     info: 'The name that started as a joke really seemed to stick after I originally pitched it, so this is a dating sight named after myself. This is a dating app similar to Bumble, or Tinder, but with a bit of a twist to it. steveDates gives users the ability to add up to four interests, or hobbies and will return potential matches with any ONE of those same hobbies.',
     info2: ' Another feature that sets steveDates apart is being able to friendZone other users. Being as this app is showcased around matching on people with the same interests, if one user wanted to go skiing with the person in front of them but doesn’t want to actually date them, they can put them in the friendZone. If that second user either clicks indicating they would want to date or friendZone they would both be pushed into the matched category with the caveat of being in the friendZone.',
